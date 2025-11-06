@@ -14,7 +14,7 @@ y = int(1.5)
 
 print (y)
 
-z = int ("10")
+z = int ("10.5")
 print (z)
 
 x = float(1)
