@@ -1,0 +1,8 @@
+price = input("Введите цену товара: ")
+quantity = input("Введите количество товара: ") 
+procent = input("Введите процент скидки: ")
+flo_price = float(price)
+int_quantity = int(quantity)
+int_procent = int(procent)
+print("Сумма к оплате:", flo_price * int_quantity * (100 - int_procent) / 100)
+print("Спасибо за покупку!")
